@@ -12,3 +12,12 @@ for (const iterator of navElemArr) {
     overlay.classList.toggle("active");
   });
 }
+
+// sticky header
+const header = document.querySelector(".header");
+
+window.addEventListener("scroll", () => {
+  window.scrollY >= 10
+    ? header.classList.add("active")
+    : header.classList.remove("active");
+});
