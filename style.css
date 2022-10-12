@@ -702,6 +702,18 @@ body {
   margin-bottom: 50px;
 }
 
+/* Anime Series  */
+.Anime-series {
+  background: url("images/top-rated-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--section-padding);
+}
+
+.Anime-series .section-title {
+  margin-bottom: 50px;
+}
+
 /* resposive.....  */
 @media (min-width: 550px) {
   :root {
