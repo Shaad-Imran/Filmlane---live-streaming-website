@@ -690,6 +690,18 @@ body {
   right: 0;
 }
 
+/* Tv Series.....  */
+.tv-series {
+  background: url("images/tv-series-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-block: var(--section-padding);
+}
+
+.tv-series .section-title {
+  margin-bottom: 50px;
+}
+
 /* resposive.....  */
 @media (min-width: 550px) {
   :root {
